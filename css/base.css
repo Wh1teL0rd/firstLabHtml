@@ -13,8 +13,8 @@ body {
 
 
 img {
-    width: 100%; /* Зробимо зображення масштабованими відповідно до контейнера */
-    height: auto; /* Автоматична висота, щоб зберегти пропорції */
+    width: 100%;
+    height: auto;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
     font-size: 30px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    line-height: 1.2;
     margin: 0;
     padding: 0;
     text-align: left
@@ -37,7 +37,7 @@ h3 {
     font-size: 18px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    line-height: 1.2;
     margin-bottom: 0;
 }
 
@@ -76,7 +76,7 @@ h3 {
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.2;
 }
 
 .play-btn {
@@ -108,7 +108,7 @@ h3 {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.2;
     margin-bottom: 12px;
 }
 
@@ -118,7 +118,7 @@ h3 {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.2;
 }
 
 @media screen and (max-width: 320px) {
@@ -146,7 +146,7 @@ h3 {
     .label-medium-white p,
     .label-bold-white p,
     .label-super-large {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .play-btn {
