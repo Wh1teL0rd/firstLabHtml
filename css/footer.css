@@ -18,9 +18,28 @@ footer {
     font-weight: 500;
     line-height: normal;
     opacity: 0.6;
+    text-decoration: none;
+}
+
+.label-medium:hover {
+    color: gray;
 }
 
 .footer-container {
     width: 90%;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+    footer {
+        height: 72px;
+    }
+
+    .label-medium {
+        text-align: center;
+    }
+
+    .footer-container {
+        width: 100%;
+    }
 }
